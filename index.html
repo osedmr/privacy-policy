@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Privacy Policy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelWall - Gizlilik Politikası</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 25px; }
+        p { margin-bottom: 15px; }
+        .highlight { background-color: #f8f9fa; padding: 15px; border-left: 5px solid #3498db; font-style: italic; }
+    </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p>This application does not collect, store, or share any personal data.</p>
-    <p>If you have any questions, please contact us.</p>
+
+    <h1>Gizlilik Politikası</h1>
+    <p><strong>Son Güncelleme:</strong> 3 Mart 2026</p>
+
+    <p>SentinelWall uygulaması olarak gizliliğinize en üst düzeyde önem veriyoruz. Bu politika, uygulamamızın işleyişi ve verilerinizle ilgili yaklaşımımızı açıklar.</p>
+
+    <div class="highlight">
+        <strong>Özet:</strong> SentinelWall, kişisel verilerinizi toplamaz, saklamaz veya üçüncü taraflarla paylaşmaz. Tüm veri işleme süreçleri tamamen cihazınızın içinde gerçekleşir.
+    </div>
+
+    <h2>1. VpnService Kullanımı</h2>
+    <p>SentinelWall, temel işlevini yerine getirmek için Android <strong>VpnService</strong> API'sini kullanır. Bu servisin kullanım amacı şudur:</p>
+    <ul>
+        <li>Cihaz genelinde reklamları ve izleyicileri (trackers) DNS seviyesinde engellemek.</li>
+        <li>Kullanıcının belirlediği uygulamaların internet erişimini kısıtlamak (Firewall).</li>
+    </ul>
+    <p><strong>Önemli:</strong> Oluşturulan VPN tüneli tamamen "yerel" (local) bir tüneldir. Trafiğiniz hiçbir uzak sunucuya yönlendirilmez, şifrelenmiş verileriniz çözülmez ve internet hızınız bu işlemden olumsuz etkilenmez.</p>
+
+    <h2>2. Veri Toplama ve Paylaşma</h2>
+    <p>Uygulamamız tasarımsal olarak "Zero-Knowledge" (Sıfır Bilgi) prensibiyle çalışır:</p>
+    <ul>
+        <li><strong>Kişisel Bilgiler:</strong> İsim, e-posta, telefon numarası veya konum gibi hiçbir kişisel bilgi istenmez ve toplanmaz.</li>
+        <li><strong>Trafik Logları:</strong> Engellenen bağlantıların kayıtları sadece sizin görebilmeniz için cihazınızdaki yerel veritabanında (SQLite) tutulur. Bu veriler cihaz dışına asla çıkmaz.</li>
+        <li><strong>Üçüncü Taraf Paylaşımı:</strong> Hiçbir veriniz reklam ağları, veri simsarları veya resmi kurumlarla paylaşılmaz.</li>
+    </ul>
+
+    <h2>3. Veri Güvenliği</h2>
+    <p>Tüm filtreleme işlemleri gerçek zamanlı olarak cihazın işlemcisi üzerinde yapılır. Uygulamanın bir backend sunucusu bulunmadığı için siber saldırılara karşı verileriniz fiziksel olarak güvendedir.</p>
+
+    <h2>4. Çocukların Gizliliği</h2>
+    <p>Uygulamamız kişisel veri toplamadığı için her yaş grubu tarafından güvenle kullanılabilir.</p>
+
+    <h2>5. İletişim</h2>
+    <p>Bu politika hakkında sorularınız için bizimle iletişime geçebilirsiniz:</p>
+    <p><strong>Geliştirici:</strong> Osman Demir<br>
+    <strong>E-posta:</strong> osefe47@gmail.com</p>
+
 </body>
 </html>
